@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 int lcm(int a,int b){
     int temp,max;
@@ -13,7 +13,18 @@ int lcm(int a,int b){
     return max;
 }
 int main(){
+    int n;
+    cin>>n;
+    vector<int>arr(n);
+    for(auto&ele:arr){
+        cin>>ele;
+    }
     int a,b;
-    cin>>a>>b;
-    cout<<lcm(a,b)<<endl;
+    a=arr[0];
+    for(int i=1;i<n;i++){
+        b=arr[i];
+        a=lcm(a,b);
+    }
+
+    cout<<a<<endl;
 }

@@ -25,6 +25,7 @@ void bfs(int vertex,int n)
     for(int i=1;i<=n;i++){
         if(!vis[i]){
             ans=false;
+            break;
         }
     }
     if(ans)cout<<"YES"<<endl;

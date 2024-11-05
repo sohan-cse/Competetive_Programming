@@ -17,7 +17,7 @@ int main(){
     }
     if(sum==give_sum){
         st=i+1;
-        en=j+1;
+        en=j;
         cout<<st<<"  "<<en<<endl;
         return 0;
     }

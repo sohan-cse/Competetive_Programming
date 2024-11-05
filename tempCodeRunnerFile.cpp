@@ -1,1 +1,1 @@
-max
+idx[arr[i]]

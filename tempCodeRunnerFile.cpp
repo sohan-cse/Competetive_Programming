@@ -1,1 +1,1 @@
-idx[arr[i]]
+g[node]

@@ -60,6 +60,9 @@
     "iostream": "cpp",
     "cmath": "cpp",
     "complex": "cpp",
-    "cstdlib": "cpp"
-  }
+    "cstdlib": "cpp",
+    "tuple": "cpp",
+    "vector": "cpp"
+  },
+  "C_Cpp.errorSquiggles": "disabled"
 }
